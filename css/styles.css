@@ -100,7 +100,7 @@
      * color-2(#F06000)
      */
     --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: rgb(255, 255, 255);
+    --color-2: hsla(24, 100%, 47%, 1);
     --color-3: #854553;
     --color-4: #70A29B;
 
@@ -134,7 +134,7 @@
      * (https://maketintsandshades.com/)
      */
     --color-black  : #000000;
-    --color-gray-19: #D1ACA5;
+    --color-gray-19: #0A0A0A;
     --color-gray-18: #141414;
     --color-gray-17: #1e1e1e;
     --color-gray-16: #282828;
