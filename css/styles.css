@@ -100,7 +100,9 @@
      * color-2(#F06000)
      */
     --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: hsla(24, 100%, 47%, 1);
+    --color-2: rgb(255, 255, 255);
+    --color-3: #854553;
+    --color-4: #70A29B;
 
     /* theme color variations
      */
@@ -132,7 +134,7 @@
      * (https://maketintsandshades.com/)
      */
     --color-black  : #000000;
-    --color-gray-19: #0a0a0a;
+    --color-gray-19: #D1ACA5;
     --color-gray-18: #141414;
     --color-gray-17: #1e1e1e;
     --color-gray-16: #282828;
@@ -2594,7 +2596,7 @@ input[type="button"].btn--primary:focus {
     content: "";
     display: block;
     height: 100%;
-    background-color: var(--color-gray-18);
+    background-color: var(--color-4);
 }
 
 .skill-bars-fat li .percent5::before {
@@ -3825,8 +3827,8 @@ input[type="button"].btn--primary:focus {
 
 .s-about__content-bottom .btn--download:hover, 
 .s-about__content-bottom .btn--download:focus {
-    background-color: var(--color-2);
-    border-color: var(--color-2);
+    background-color: var(--color-3);
+    border-color: var(--color-3);
 }
 
 .s-about__content-bottom .btn--download:hover svg path, 
